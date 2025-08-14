@@ -44,3 +44,5 @@ jobs:
         with:
           push: true
           tags: ${{ vars.DOCKER_USERNAME }}/${{ github.event.repository.name }}:latest
+
+          # needed a change, so here's a comment
